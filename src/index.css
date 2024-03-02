@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(178, 186, 226);
+}
+input:hover{
+    border: 2px solid blue;
+    
+}
+button:hover{
+    transform:scale(1.1);
+    transition:all 0.25s ease;
+}
